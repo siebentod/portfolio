@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import CopyButton from './CopyButton';
 import Button from './Button';
 import Modal from './Modal';
