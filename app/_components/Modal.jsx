@@ -34,7 +34,7 @@ export default function Modal({ openedModal, closeModal }) {
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-10"
+      className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-10 overflow-y-auto"
       onClick={handleOverlayClick}
     >
       {openedModal.type === 'screenshot' ? (

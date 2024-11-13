@@ -10,6 +10,7 @@ export default {
         lg: '1000px',
         md: '768px',
         sm: '620px',
+        xs: '420px',
       },
       fontFamily: {
         heading: ['var(--font-heading)', ...fontFamily.sans],

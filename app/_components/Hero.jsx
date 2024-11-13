@@ -7,7 +7,7 @@ function Hero() {
       {/* <section className="w-full py-12 md:py-24 lg:py-32 snap-start"> */}
       <section className="w-full py-20 snap-start">
         <div className="container px-4 md:px-6 mx-auto">
-          <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div className="grid gap-6 md:grid-cols-2">
             <div className="flex flex-col justify-center space-y-4">
               <div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -30,7 +30,7 @@ function Hero() {
             <Image
               alt="Hero"
               src="/ref10.jpg"
-              className="mx-auto aspect-square overflow-hidden rounded-xl object-cover lg:order-last"
+              className="mx-auto aspect-square overflow-hidden rounded-xl object-cover hidden md:block"
               width="300"
               height="300"
             />

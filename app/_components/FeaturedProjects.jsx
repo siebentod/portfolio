@@ -53,24 +53,30 @@ function FeaturedProjects() {
                 исследовательская работа. Весь текст на одной странице для
                 простого и быстрого поиска.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('apoliteia')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('apoliteia')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://apoliteia.ru"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/apoliteia"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://apoliteia.ru"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/apoliteia"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -89,24 +95,30 @@ function FeaturedProjects() {
                 «осознанности»/etc с авторизацией (e-mail и OAuth), сохранением
                 данных в supabase, отображением разноформатной статистики.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('nivritti')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('nivritti')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://nivritti.vercel.app/"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/nivritti"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://nivritti.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/nivritti"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -127,24 +139,30 @@ function FeaturedProjects() {
                 Тексты в модальных окнах, которые также функционируют как
                 отдельные страницы.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('extracts')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('extracts')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://philosophy-extracts.vercel.app/"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/philosophy-extracts"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://philosophy-extracts.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/philosophy-extracts"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -161,24 +179,30 @@ function FeaturedProjects() {
                 Все гимны Ригведы в формате псевдо базы данных (js-объект со
                 всеми текстами) с возможностью поиска по ней.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('rigveda')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('rigveda')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://rigveda-hymns.vercel.app/"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/rigveda"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://rigveda-hymns.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/rigveda"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -196,24 +220,30 @@ function FeaturedProjects() {
                 тикера (акции, фонда, облигации) на бирже между двумя выбранными
                 датами.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('birzha')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('birzha')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://birzha.vercel.app/"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/birzha"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://birzha.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/birzha"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -232,24 +262,30 @@ function FeaturedProjects() {
                 скопированного из PDF. Существует в виде Desktop приложения,
                 созданного при помощи Tauri.
               </p>
-              <div className="my-1">
-                <Button onClick={() => onModalOpen('pdf')} type="primary">
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('pdf')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
                   Технические детали
                 </Button>
-                <Button
-                  href="https://clean-copy-from-pdf.vercel.app/"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  На сайт <IoOpenOutline className="ml-0.5" />
-                </Button>
-                <Button
-                  href="https://github.com/siebentod/clean-copy-from-pdf"
-                  type="secondary"
-                  className="ml-1.5"
-                >
-                  Github <IoLogoGithub className="ml-0.5" />
-                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://clean-copy-from-pdf.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/clean-copy-from-pdf"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

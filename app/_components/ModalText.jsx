@@ -46,7 +46,7 @@ function ModalText({ openedModal, closeModal }) {
 
   return (
     <>
-      <div className=" bg-[#242424] p-5 rounded-lg shadow-lg max-w-lg w-full grid justify-center items-center z-10 animate-slide-up">
+      <div className="bg-[#242424] p-5 rounded-lg shadow-lg max-w-lg w-full grid justify-center items-center z-10 animate-slide-up">
         <Text url={url} closeModal={closeModal} />
       </div>
     </>
