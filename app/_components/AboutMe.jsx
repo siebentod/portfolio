@@ -76,7 +76,7 @@ function AboutMe() {
                 </p>
                 <Button
                   type="primary"
-                  className="mt-4"
+                  className="mt-4 block mx-auto lg:inline-flex"
                   onClick={() => buttonHandler('aboutme')}
                 >
                   Больше

@@ -64,7 +64,7 @@ function FeaturedProjects() {
                 исследовательская работа. Весь текст на одной странице для
                 простого и быстрого поиска.
               </p>
-              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+              <div className="my-1 flex flex-wrap place-content-center md:place-content-start">
                 <Button
                   onClick={() => onModalOpen('apoliteia')}
                   type="primary"

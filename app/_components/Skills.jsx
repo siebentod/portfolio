@@ -80,7 +80,7 @@ function Skills() {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col md:min-w-[250px] sm:border-r border-zinc-200">
+                <div className="flex flex-col md:min-w-[250px] lg:border-r border-zinc-200">
                   <div className="md:py-2.5 px-10 font-bold text-2xl">
                     Medium 👍
                   </div>
