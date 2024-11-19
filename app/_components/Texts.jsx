@@ -15,13 +15,14 @@ export const TextApoliteia = ({ url, closeModal }) => {
           помощи Typescript.
         </p>
         <p className="mt-4">
-          Использовался фреймворк <span className="text-yellow">vike</span>, а
-          не Next.js, потому что в нем проще и удобнее на данный момент
-          реализован полный пререндеринг (SSG) с последующей гидрацией.
+          Был выбран фреймворк <span className="text-yellow">vike</span>, а не
+          Next.js, потому что в нем проще и удобнее на данный момент реализован
+          полный пререндеринг (SSG) с последующей гидрацией.
         </p>
         <p className="mt-4">
           Параллельное расположение сделано не через table, а через grid и ~
-          селектор.
+          селектор. Используется глобальный state менеджер Zustand для
+          синхронизации окна выбора перевода, хедера и выбранного текста.
         </p>
       </div>
       <div className="grid grid-cols-2 gap-2 mt-4">
@@ -82,9 +83,9 @@ export const TextExtracts = ({ url, closeModal }) => {
           создается Sitemap.
         </p>
         <p className="mt-4">
-          Селекторы с поиском созданы с помощью пакета{' '}
-          <span className="text-yellow">react-select</span>, постепенная
-          подгрузка при скроллинге реализована с{' '}
+          Изначально использовался пакет react-select, потом он был заменен
+          кастомным селектором с кнопкой очищения. Постепенная подгрузка при
+          скроллинге реализована с{' '}
           <span className="text-yellow">react-intersection-observer</span>.
         </p>
       </div>
@@ -162,7 +163,7 @@ export const TextPDF = ({ url, closeModal }) => {
     <>
       <div className="text-white m-5">
         <p>
-          Приложением активно сам пользуюсь. Regex-замена происходит по ряду
+          Сам активно пользуюсь приложением. Regex-замена происходит по ряду
           правил, обрабатывая ложные и правильные переносы строки. Для создания
           кастомной textarea использовался пакет react-textarea-autosize. В
           Textarea нельзя писать и редактировать текст, только вставлять и

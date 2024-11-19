@@ -5,8 +5,7 @@ import Modal from './Modal';
 import Carousel from './Carousel';
 import Screenshot from './Screenshot';
 import { useState } from 'react';
-import { IoOpenOutline } from 'react-icons/io5';
-import { IoLogoGithub } from 'react-icons/io5';
+import { IoOpenOutline, IoLogoGithub } from 'react-icons/io5';
 
 function FeaturedProjects() {
   const [openedModal, setOpenedModal] = useState(false);
@@ -27,7 +26,7 @@ function FeaturedProjects() {
         className="w-full py-14 bg-muted snap-start"
         id="projects"
       >
-        <div className="container px-4 md:px-6">
+        <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col items-center justify-center text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Featured Projects
@@ -43,11 +42,23 @@ function FeaturedProjects() {
                 <img src="/apoliteia.ico" className="h-[16px] mr-1" />
                 Apoliteia
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/apoliteia1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/apoliteia2.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/apoliteia3.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia2.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia3.png" />
+                </Carousel>
+                <div className="absolute right-1 bottom-1 ">
+                  <div className="rounded-full border border-slate-200">
+                    <img
+                      src="/vike.svg"
+                      alt="Vike Icon"
+                      className="w-8 h-8 p-1"
+                    />
+                  </div>
+                </div>
+              </div>
+
               <p className="text-zinc-600 my-2 flex-1">
                 Библиотека параллельных текстов. Сфера использования – учебная и
                 исследовательская работа. Весь текст на одной странице для
@@ -85,11 +96,22 @@ function FeaturedProjects() {
                 <img src="/nivritti.ico" className="h-[16px] mr-1" />
                 Nivritti
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/nivritti1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/nivritti2.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/nivritti3.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/nivritti1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/nivritti2.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/nivritti3.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    <img
+                      src="/next-js.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Минималистичное приложение для медитации/практик
                 «осознанности»/etc с авторизацией (e-mail и OAuth), сохранением
@@ -130,10 +152,21 @@ function FeaturedProjects() {
                 />
                 Отрывки из философских текстов
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/extracts1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/extracts2.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/extracts1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/extracts2.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    <img
+                      src="/next-js.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Большая антология отрывков с возможностью поиска и фильтрации.
                 Тексты в модальных окнах, которые также функционируют как
@@ -171,10 +204,21 @@ function FeaturedProjects() {
                 <img src="/rigveda.ico" className="h-[16px] mr-1" />
                 Гимны Ригведы
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    <img
+                      src="/next-js.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Все гимны Ригведы в формате псевдо базы данных (js-объект со
                 всеми текстами) с возможностью поиска по ней.
@@ -211,10 +255,21 @@ function FeaturedProjects() {
                 <img src="/birzha.ico" className="h-[16px] mr-1" />
                 Birzha
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/birzha1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/birzha2.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/birzha1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/birzha2.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-slate-50">
+                    <img
+                      src="/tailwindcss.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7 p-1.5"
+                    />
+                  </div>
+                </div>
+              </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Минималистичное приложение, которое позволяет узнать разницу цен
                 тикера (акции, фонда, облигации) на бирже между двумя выбранными
@@ -252,15 +307,32 @@ function FeaturedProjects() {
                 <img src="/pdf.ico" className="h-[16px] mr-1" />
                 Clean Copy From PDF
               </h3>
-              <Carousel>
-                <Screenshot onModalOpen={onModalOpen} src="/pdf1.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/pdf2.png" />
-                <Screenshot onModalOpen={onModalOpen} src="/pdf3.png" />
-              </Carousel>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/pdf1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/pdf2.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/pdf3.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-white">
+                    <img
+                      src="/tauri.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7 p-1.5"
+                    />
+                  </div>
+                </div>
+              </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Простая утилита для удаления лишних абзацев из текста,
-                скопированного из PDF. Существует в виде Desktop приложения,
-                созданного при помощи Tauri.
+                скопированного из PDF. Существует в виде сайта и{' '}
+                <a
+                  href="https://github.com/siebentod/clean-copy-from-pdf/releases/tag/initial"
+                  className="underline underline-offset-2 text-myred hover:text-[#4579cb]"
+                >
+                  Desktop приложения
+                </a>
+                , созданного при помощи Tauri.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button

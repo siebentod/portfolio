@@ -17,35 +17,161 @@ function Skills() {
                   <div className="md:py-2.5 px-10 font-bold text-2xl">
                     Good 🎓
                   </div>
-                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between">
-                    <p className="m-auto">React</p>
-                    <p className="m-auto">Tailwind</p>
-                    <p className="m-auto">Sass</p>
-                    <p className="m-auto">Zustand</p>
-                    <p className="m-auto">Javascript</p>
-                    <p className="m-auto">HTML + CSS</p>
+                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between content-center mx-auto">
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/react.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      React
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/tailwindcss.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Tailwind
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/sass.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Sass
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/zustand.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Zustand
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/javascript.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[3px]"
+                        />
+                      </div>
+                      Javascript
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/html.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      HTML + CSS
+                    </div>
                   </div>
                 </div>
                 <div className="flex flex-col md:min-w-[250px] sm:border-r border-zinc-200">
                   <div className="md:py-2.5 px-10 font-bold text-2xl">
                     Medium 👍
                   </div>
-                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between">
-                    <p className="m-auto">Next.js</p>
-                    <p className="m-auto">Vike</p>
-                    <p className="m-auto">Redux</p>
-                    <p className="m-auto">Jotai</p>
-                    <p className="m-auto">React Query</p>
+                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between content-center mx-auto">
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/next.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Next.js
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/vike.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[2px]"
+                        />
+                      </div>
+                      Vike
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/redux.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Redux
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/jotai.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[3px]"
+                        />
+                      </div>
+                      Jotai
+                    </div>
                   </div>
                 </div>
                 <div className="flex flex-col md:min-w-[250px]">
                   <div className="md:py-2.5 px-10 text-nowrap font-bold text-2xl">
                     Worked with ✍🏻
                   </div>
-                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between">
-                    <p className="m-auto">Styled Components</p>
-                    <p className="m-auto">Typescript</p>
-                    <p className="m-auto">Node.js</p>
+                  <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between content-center mx-auto">
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/styled-components.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Styled Components
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/react-query.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[3px]"
+                        />
+                      </div>
+                      React Query
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/typescript.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Typescript
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/nodejs.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Node.js
+                    </div>
                   </div>
                 </div>
               </div>
