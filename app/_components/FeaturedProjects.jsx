@@ -114,7 +114,7 @@ function FeaturedProjects() {
               </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Минималистичное приложение для медитации/практик
-                «осознанности»/etc с авторизацией (e-mail и OAuth), сохранением
+                «осознанности»/etc с авторизацией (Email и OAuth), сохранением
                 данных в supabase, отображением разноформатной статистики.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
