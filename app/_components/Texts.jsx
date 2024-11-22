@@ -106,15 +106,23 @@ export const TextRigveda = ({ url, closeModal }) => {
     <>
       <div className="text-white m-5">
         <p>
-          Текст взят с другого сайта. Его объем очень большой, для обработки –
-          перевода в другой формат, а также исправления ошибок OCR –
-          использовалось множество{' '}
-          <span className="text-yellow">nodejs-скриптов</span>, с которыми
-          помогал ChatGPT.
+          "Pure JS" проект. Не используется{' '}
+          <span className="text-yellow">никаких npm пакетов</span>, несложный
+          билдер написан собственноручно.
         </p>
         <p className="mt-4">
-          Ссылки функционируют как отдельные страницы с заглавиями, которые
-          можно сохранить в закладки.
+          При прямом заходе на какую-либо страницу (из 1028) открывается ее
+          сгенерированный html. При нажатии на ссылку на странице работает как
+          SPA.
+        </p>
+        <p className="mt-4">
+          Предыдущая версии сайта:{' '}
+          <a
+            href="https://github.com/siebentod/rigveda-nextjs"
+            className="underline"
+          >
+            Next.js
+          </a>
         </p>
       </div>
       <div className="grid grid-cols-2 gap-2 mt-4">

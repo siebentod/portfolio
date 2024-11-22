@@ -168,9 +168,9 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Большая антология отрывков с возможностью поиска и фильтрации.
-                Тексты в модальных окнах, которые также функционируют как
-                отдельные страницы.
+                Большая антология отрывков с постепенной подгрузкой. Тексты в
+                модальных окнах, которые также функционируют как отдельные
+                страницы.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -210,9 +210,9 @@ function FeaturedProjects() {
                   <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full bg-zinc-800">
+                  <div className="rounded-full">
                     <img
-                      src="/next-js.svg"
+                      src="/nodejs.svg"
                       alt="Next.js Icon"
                       className="w-7 h-7"
                     />
@@ -220,8 +220,8 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Все гимны Ригведы в формате псевдо базы данных (js-объект со
-                всеми текстами) с возможностью поиска по ней.
+                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
+                SSG без фреймворков и npm пакетов, билдер написан на nodejs.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -240,7 +240,7 @@ function FeaturedProjects() {
                     На сайт <IoOpenOutline className="ml-0.5" />
                   </Button>
                   <Button
-                    href="https://github.com/siebentod/rigveda"
+                    href="https://github.com/siebentod/rigveda-purejs"
                     type="secondary"
                     className="ml-1.5"
                   >
