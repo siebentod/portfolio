@@ -49,8 +49,8 @@ export const TextNivritti = ({ url, closeModal }) => {
           jobs. В написании SQL помогал ChatGPT.
         </p>
         <p className="my-4">
-          Регистрация возможна через e-mail+пароль (подтверждение регистрации
-          при помощи бесплатного{' '}
+          Регистрация возможна через email+пароль (подтверждение регистрации при
+          помощи бесплатного{' '}
           <span className="text-yellow">SMTP-сервиса Brevo</span>) и{' '}
           <span className="text-yellow">OAuth</span> Google и Github.
         </p>

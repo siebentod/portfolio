@@ -104,7 +104,11 @@ function AboutMe() {
                     </a>
                     <CopyButton textToCopy="siebentod@mail.ru" />
                   </div>
-                  <Button href="#" type="primary" className="w-full mt-6">
+                  <Button
+                    href="/CV_Alexey_Mokrousov.pdf"
+                    type="primary"
+                    className="w-full mt-6"
+                  >
                     Download CV
                   </Button>
                 </div>
