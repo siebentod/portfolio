@@ -114,8 +114,8 @@ function FeaturedProjects() {
               </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Минималистичное приложение для медитации/практик
-                «осознанности»/etc с авторизацией (Email и OAuth), сохранением
-                данных в supabase, отображением разноформатной статистики.
+                «осознанности»/etc с авторизацией (email и OAuth), сохранением
+                данных в supabase, отображением статистики в виде Heatmap.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -252,28 +252,32 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/birzha.ico" className="h-[16px] mr-1" />
+                <img src="/lastfm.ico" className="h-[16px] mr-1" />
+                Last.FM Tool /
+                <img src="/birzha.ico" className="h-[16px] mr-1 ml-[7px]" />
                 Birzha
               </h3>
               <div className="relative">
                 <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/lastfm1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/lastfm2.png" />
                   <Screenshot onModalOpen={onModalOpen} src="/birzha1.png" />
                   <Screenshot onModalOpen={onModalOpen} src="/birzha2.png" />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full bg-slate-50">
+                  <div className="rounded-full bg-zinc-800">
                     <img
-                      src="/tailwindcss.svg"
+                      src="/next-js.svg"
                       alt="Next.js Icon"
-                      className="w-7 h-7 p-1.5"
+                      className="w-7 h-7"
                     />
                   </div>
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Минималистичное приложение, которое позволяет узнать разницу цен
-                тикера (акции, фонда, облигации) на бирже между двумя выбранными
-                датами.
+                Два приложения, которые получают данные с API, выполняют с ними
+                операции и визуализируют результат. Первое использует Next.js
+                для сокрытия ключа и показывает данные во время загрузки.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
