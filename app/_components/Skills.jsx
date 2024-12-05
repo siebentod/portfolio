@@ -13,7 +13,7 @@ function Skills() {
                 Skills (Stack)
               </h2>
               <div className="flex flex-wrap max-w-5xl m-auto justify-center text-lg pt-2 pb-1">
-                <div className="flex flex-col md:min-w-[250px] sm:border-r border-zinc-200">
+                <div className="flex flex-col md:min-w-[250px] sm:border-r border-zinc-200 md:mb-0 mb-3">
                   <div className="md:py-2.5 px-10 font-bold text-2xl">
                     Good 🎓
                   </div>
@@ -80,7 +80,7 @@ function Skills() {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col md:min-w-[250px] lg:border-r border-zinc-200">
+                <div className="flex flex-col md:min-w-[250px] lg:border-r border-zinc-200 md:mb-0 mb-3">
                   <div className="md:py-2.5 px-10 font-bold text-2xl">
                     Medium 👍
                   </div>
