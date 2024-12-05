@@ -39,60 +39,6 @@ function FeaturedProjects() {
           <div className="mx-auto grid max-w-5xl items-center gap-6 pt-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/apoliteia.ico" className="h-[16px] mr-1" />
-                Apoliteia
-              </h3>
-              <div className="relative">
-                <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia2.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia3.png" />
-                </Carousel>
-                <div className="absolute right-1 bottom-1 ">
-                  <div className="rounded-full border border-slate-200">
-                    <img
-                      src="/vike.svg"
-                      alt="Vike Icon"
-                      className="w-8 h-8 p-1"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <p className="text-zinc-600 my-2 flex-1">
-                Библиотека параллельных текстов. Сфера использования – учебная и
-                исследовательская работа. Весь текст на одной странице для
-                простого и быстрого поиска.
-              </p>
-              <div className="my-1 flex flex-wrap place-content-center md:place-content-start">
-                <Button
-                  onClick={() => onModalOpen('apoliteia')}
-                  type="primary"
-                  className="mb-1.5 xs:mb-0"
-                >
-                  Технические детали
-                </Button>
-                <div className="flex">
-                  <Button
-                    href="https://apoliteia.ru"
-                    type="secondary"
-                    className="xs:ml-1.5"
-                  >
-                    На сайт <IoOpenOutline className="ml-0.5" />
-                  </Button>
-                  <Button
-                    href="https://github.com/siebentod/apoliteia"
-                    type="secondary"
-                    className="ml-1.5"
-                  >
-                    Github <IoLogoGithub className="ml-0.5" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/nivritti.ico" className="h-[16px] mr-1" />
                 Nivritti
               </h3>
@@ -135,6 +81,58 @@ function FeaturedProjects() {
                   </Button>
                   <Button
                     href="https://github.com/siebentod/nivritti"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                Гимны Ригведы
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full">
+                    <img
+                      src="/nodejs.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                SPA + SSG без фреймворков и npm пакетов, билдер написан на
+                nodejs. Все гимны Ригведы в формате json/js с возможностью
+                поиска.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('rigveda')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://rigveda-hymns.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/rigveda-purejs"
                     type="secondary"
                     className="ml-1.5"
                   >
@@ -201,31 +199,34 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/rigveda.ico" className="h-[16px] mr-1" />
-                Гимны Ригведы
+                <img src="/apoliteia.ico" className="h-[16px] mr-1" />
+                Apoliteia
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia2.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia3.png" />
                 </Carousel>
-                <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full">
+                <div className="absolute right-1 bottom-1 ">
+                  <div className="rounded-full border border-slate-200">
                     <img
-                      src="/nodejs.svg"
-                      alt="Next.js Icon"
-                      className="w-7 h-7"
+                      src="/vike.svg"
+                      alt="Vike Icon"
+                      className="w-8 h-8 p-1"
                     />
                   </div>
                 </div>
               </div>
+
               <p className="text-zinc-600 my-2 flex-1">
-                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
-                SSG без фреймворков и npm пакетов, билдер написан на nodejs.
+                Библиотека параллельных текстов. Сфера использования – учебная и
+                исследовательская работа. Весь текст на одной странице для
+                простого и быстрого поиска.
               </p>
-              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+              <div className="my-1 flex flex-wrap place-content-center md:place-content-start">
                 <Button
-                  onClick={() => onModalOpen('rigveda')}
+                  onClick={() => onModalOpen('apoliteia')}
                   type="primary"
                   className="mb-1.5 xs:mb-0"
                 >
@@ -233,14 +234,14 @@ function FeaturedProjects() {
                 </Button>
                 <div className="flex">
                   <Button
-                    href="https://rigveda-hymns.vercel.app/"
+                    href="https://apoliteia.ru"
                     type="secondary"
                     className="xs:ml-1.5"
                   >
                     На сайт <IoOpenOutline className="ml-0.5" />
                   </Button>
                   <Button
-                    href="https://github.com/siebentod/rigveda-purejs"
+                    href="https://github.com/siebentod/apoliteia"
                     type="secondary"
                     className="ml-1.5"
                   >
