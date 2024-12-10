@@ -46,33 +46,33 @@ function AboutMe() {
                     href="https://www.udemy.com/course/the-ultimate-react-course/"
                     className="text-myred hover:text-[#4579cb]"
                   >
-                    Jonas Schmedtmann
-                  </a>{' '}
-                  (React+Next), смотрел{' '}
+                    Jonas Schmedtmann (React+Next)
+                  </a>
+                  , смотрел{' '}
                   <a
                     href="https://www.oreilly.com/videos/react-the/9781801812603/"
                     className="text-myred hover:text-[#4579cb]"
                   >
-                    Maximilian Schwarzmüller
-                  </a>{' '}
-                  (React),{' '}
+                    Maximilian Schwarzmüller (React)
+                  </a>
+                  ,{' '}
                   <a
-                    href="https://javascriptsimplified.com"
+                    href="https://www.udemy.com/course/the-complete-javascript-course/"
                     className="text-myred hover:text-[#4579cb]"
                   >
-                    Javascript Simplified
+                    Jonas Schmedtmann (Javascript)
                   </a>{' '}
-                  (Javascript) и{' '}
+                  и{' '}
                   <a
                     href="https://cssdemystified.com/"
                     className="text-myred hover:text-[#4579cb]"
                   >
-                    CSS Demystified
-                  </a>{' '}
-                  (верстка). Также имею представление о том, из чего состоит
-                  Фронтенд-курс Яндекса, потому что на нем учился мой друг. Сам
-                  проходить платные курсы не хочу, потому что не считаю их
-                  заслуживающими своей стоимости.
+                    CSS Demystified (верстка)
+                  </a>
+                  . В данный момент прохожу курс "Бэкенд на Node.js для
+                  фронтенд-разработчиков" Я.Практикум. Также имею представление,
+                  из чего состоит большой Фронтенд-курс Яндекса, потому что на
+                  нем учился мой друг.
                 </p>
                 <Button
                   type="primary"
