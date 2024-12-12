@@ -6,7 +6,7 @@ import Footer from './_components/Footer';
 import Hero from './_components/Hero';
 
 export const metadata = {
-  title: 'Front-End Developer | Portfolio',
+  title: 'Siebentod Portfolio | Front-End Developer',
 };
 
 export default function Component() {
