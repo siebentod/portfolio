@@ -11,7 +11,7 @@ function Footer() {
         >
           Portfolio Github <IoLogoGithub className="ml-px" />
         </Link>{' '}
-        · 2024
+        · {new Date().getFullYear()}
       </nav>
     </footer>
   );
