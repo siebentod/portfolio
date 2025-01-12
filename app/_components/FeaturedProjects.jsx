@@ -92,58 +92,6 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/rigveda.ico" className="h-[16px] mr-1" />
-                Гимны Ригведы
-              </h3>
-              <div className="relative">
-                <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
-                </Carousel>
-                <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full">
-                    <img
-                      src="/nodejs.svg"
-                      alt="Next.js Icon"
-                      className="w-7 h-7"
-                    />
-                  </div>
-                </div>
-              </div>
-              <p className="text-zinc-600 my-2 flex-1">
-                SPA + SSG без фреймворков и npm пакетов, билдер написан на
-                nodejs. Все гимны Ригведы в формате json/js с возможностью
-                поиска.
-              </p>
-              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
-                <Button
-                  onClick={() => onModalOpen('rigveda')}
-                  type="primary"
-                  className="mb-1.5 xs:mb-0"
-                >
-                  Технические детали
-                </Button>
-                <div className="flex">
-                  <Button
-                    href="https://rigveda-hymns.vercel.app/"
-                    type="secondary"
-                    className="xs:ml-1.5"
-                  >
-                    На сайт <IoOpenOutline className="ml-0.5" />
-                  </Button>
-                  <Button
-                    href="https://github.com/siebentod/rigveda-purejs"
-                    type="secondary"
-                    className="ml-1.5"
-                  >
-                    Github <IoLogoGithub className="ml-0.5" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img
                   src="/extracts.ico"
                   className="h-[16px] mr-1 border border-zinc-300 rounded-full"
@@ -188,6 +136,57 @@ function FeaturedProjects() {
                   </Button>
                   <Button
                     href="https://github.com/siebentod/philosophy-extracts"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                Гимны Ригведы
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
+                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full">
+                    <img
+                      src="/nodejs.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
+                SSG без фреймворков и npm пакетов, «билдер» написан на nodejs.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('rigveda')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://rigveda-hymns.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/rigveda-purejs"
                     type="secondary"
                     className="ml-1.5"
                   >
