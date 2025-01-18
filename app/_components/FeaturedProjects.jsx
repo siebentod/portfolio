@@ -289,7 +289,7 @@ function FeaturedProjects() {
                 </Button>
                 <div className="flex">
                   <Button
-                    href="https://birzha.vercel.app/"
+                    href="https://lastfm-obscure-artists.vercel.app"
                     type="secondary"
                     className="xs:ml-1.5"
                   >
