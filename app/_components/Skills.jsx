@@ -71,12 +71,12 @@ function Skills() {
                     <div className="flex content-center gap-1">
                       <div className="inline">
                         <img
-                          src="/html.svg"
+                          src="/next.svg"
                           alt="Next.js Icon"
                           className="w-7 h-7 p-[4px]"
                         />
                       </div>
-                      HTML + CSS
+                      Next.js
                     </div>
                   </div>
                 </div>
@@ -85,16 +85,6 @@ function Skills() {
                     Medium 👍
                   </div>
                   <div className="flex flex-col flex-1 py-1 md:py-2 px-10 justify-between content-center mx-auto">
-                    <div className="flex content-center gap-1">
-                      <div className="inline">
-                        <img
-                          src="/next.svg"
-                          alt="Next.js Icon"
-                          className="w-7 h-7 p-[4px]"
-                        />
-                      </div>
-                      Next.js
-                    </div>
                     <div className="flex content-center gap-1">
                       <div className="inline">
                         <img
@@ -125,6 +115,26 @@ function Skills() {
                       </div>
                       Jotai
                     </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/typescript.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Typescript
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/nodejs.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[4px]"
+                        />
+                      </div>
+                      Node.js
+                    </div>
                   </div>
                 </div>
                 <div className="flex flex-col md:min-w-[250px]">
@@ -145,22 +155,12 @@ function Skills() {
                     <div className="flex content-center gap-1">
                       <div className="inline">
                         <img
-                          src="/react-query.svg"
-                          alt="Next.js Icon"
-                          className="w-7 h-7 p-[3px]"
-                        />
-                      </div>
-                      React Query
-                    </div>
-                    <div className="flex content-center gap-1">
-                      <div className="inline">
-                        <img
-                          src="/typescript.svg"
+                          src="/nodejs.svg"
                           alt="Next.js Icon"
                           className="w-7 h-7 p-[4px]"
                         />
                       </div>
-                      Typescript
+                      Express
                     </div>
                     <div className="flex content-center gap-1">
                       <div className="inline">
@@ -170,7 +170,17 @@ function Skills() {
                           className="w-7 h-7 p-[4px]"
                         />
                       </div>
-                      Node.js
+                      SQL
+                    </div>
+                    <div className="flex content-center gap-1">
+                      <div className="inline">
+                        <img
+                          src="/react-query.svg"
+                          alt="Next.js Icon"
+                          className="w-7 h-7 p-[3px]"
+                        />
+                      </div>
+                      React Query
                     </div>
                   </div>
                 </div>

@@ -44,9 +44,18 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/nivritti1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/nivritti2.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/nivritti3.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti3.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full bg-zinc-800">
@@ -59,9 +68,9 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Минималистичное приложение для медитации/практик
-                «осознанности»/etc с авторизацией (email и OAuth), сохранением
-                данных в supabase, отображением статистики в виде Heatmap.
+                Минималистичное приложение для медитации/успокоения с
+                регистрацией (email и OAuth), сохранением данных в supabase,
+                отображением статистики в виде Heatmap.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -100,8 +109,18 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/extracts1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/extracts2.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/extracts1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/extracts2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/extracts3.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full bg-zinc-800">
@@ -152,8 +171,14 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/rigveda2.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/rigveda1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/rigveda2.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full">
@@ -203,16 +228,25 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia2.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/apoliteia3.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia3.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia2.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1 bottom-1 ">
-                  <div className="rounded-full border border-slate-200">
+                  <div className="border border-slate-200 rounded-full">
                     <img
                       src="/vike.svg"
                       alt="Vike Icon"
-                      className="w-8 h-8 p-1"
+                      className="w-7 h-7 rounded-full"
                     />
                   </div>
                 </div>
@@ -259,10 +293,22 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/lastfm1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/lastfm2.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/birzha1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/birzha2.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/lastfm1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/lastfm2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/birzha1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/birzha2.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full bg-zinc-800">
@@ -313,9 +359,14 @@ function FeaturedProjects() {
               </h3>
               <div className="relative">
                 <Carousel>
-                  <Screenshot onModalOpen={onModalOpen} src="/pdf1.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/pdf2.png" />
-                  <Screenshot onModalOpen={onModalOpen} src="/pdf3.png" />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/pdf2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/pdf1.png"
+                  />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full bg-white">
