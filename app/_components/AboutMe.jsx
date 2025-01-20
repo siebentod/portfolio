@@ -30,7 +30,7 @@ function AboutMe() {
             <div className="grid gap-6 lg:grid-cols-[60ch_1fr]">
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                  About Me
+                  Обо мне
                 </h2>
                 <p className="max-w-[900px] text-zinc-600 md:text-xl/relaxed lg:text-base/relaxed mt-2">
                   Живу в Воронеже, 1998 г. рождения. Учился на ФКН, но не

@@ -29,7 +29,7 @@ function FeaturedProjects() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col items-center justify-center text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Featured Projects
+              Мои сайты
             </h2>
             {/* <p className="max-w-[900px] text-zinc-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Check out some of my recent web development projects.
@@ -167,6 +167,129 @@ function FeaturedProjects() {
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                WorldWise.ru
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/worldwise1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/worldwise2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/worldwise3.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full">
+                    <img
+                      src="/nodejs.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Сайт с текстами, сгенерированными Ноосферой. Репрезентирующий
+                поиск по текстам и теги, все эти параметры отображаются в URL.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  // onClick={() => onModalOpen('worldwise')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0 text-zinc-500"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://worldwise.ru/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href=""
+                    type="secondary"
+                    className="ml-1.5 text-gray-300 hover:text-gray-300"
+                  >
+                    Github <IoLogoGithub className="ml-0.5 text-gray-300" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/apoliteia.ico" className="h-[16px] mr-1" />
+                Apoliteia.ru
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia3.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/apoliteia2.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1 bottom-1 ">
+                  <div className="border border-slate-200 rounded-full">
+                    <img
+                      src="/vike.svg"
+                      alt="Vike Icon"
+                      className="w-7 h-7 rounded-full"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Библиотека параллельных текстов. Сфера использования – учебная и
+                исследовательская работа. Весь текст на одной странице для
+                простого и быстрого поиска.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center md:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('apoliteia')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://apoliteia.ru"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/apoliteia"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/rigveda.ico" className="h-[16px] mr-1" />
                 Гимны Ригведы
               </h3>
               <div className="relative">
@@ -212,69 +335,6 @@ function FeaturedProjects() {
                   </Button>
                   <Button
                     href="https://github.com/siebentod/rigveda-purejs"
-                    type="secondary"
-                    className="ml-1.5"
-                  >
-                    Github <IoLogoGithub className="ml-0.5" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/apoliteia.ico" className="h-[16px] mr-1" />
-                Apoliteia
-              </h3>
-              <div className="relative">
-                <Carousel>
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/apoliteia3.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/apoliteia1.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/apoliteia2.png"
-                  />
-                </Carousel>
-                <div className="absolute right-1 bottom-1 ">
-                  <div className="border border-slate-200 rounded-full">
-                    <img
-                      src="/vike.svg"
-                      alt="Vike Icon"
-                      className="w-7 h-7 rounded-full"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <p className="text-zinc-600 my-2 flex-1">
-                Библиотека параллельных текстов. Сфера использования – учебная и
-                исследовательская работа. Весь текст на одной странице для
-                простого и быстрого поиска.
-              </p>
-              <div className="my-1 flex flex-wrap place-content-center md:place-content-start">
-                <Button
-                  onClick={() => onModalOpen('apoliteia')}
-                  type="primary"
-                  className="mb-1.5 xs:mb-0"
-                >
-                  Технические детали
-                </Button>
-                <div className="flex">
-                  <Button
-                    href="https://apoliteia.ru"
-                    type="secondary"
-                    className="xs:ml-1.5"
-                  >
-                    На сайт <IoOpenOutline className="ml-0.5" />
-                  </Button>
-                  <Button
-                    href="https://github.com/siebentod/apoliteia"
                     type="secondary"
                     className="ml-1.5"
                   >

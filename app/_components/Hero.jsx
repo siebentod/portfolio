@@ -11,7 +11,7 @@ function Hero() {
             <div className="flex flex-col justify-center space-y-4">
               <div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Front-End Developer
+                  Frontend Developer
                 </h1>
                 <p className="max-w-[550px] text-zinc-600 md:text-lg mt-3">
                   Меня зовут Алексей, я веб-разработчик. Ниже можно найти мои

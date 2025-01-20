@@ -10,7 +10,7 @@ function Skills() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="sm:pb-3 md:pb-6 text-3xl font-bold tracking-tighter sm:text-5xl text-black">
-                Skills (Stack)
+                Навыки
               </h2>
               <div className="flex flex-wrap max-w-5xl m-auto justify-center text-lg pt-2 pb-1">
                 <div className="flex flex-col md:min-w-[250px] sm:border-r border-zinc-200 md:mb-0 mb-3">

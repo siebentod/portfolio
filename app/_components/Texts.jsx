@@ -4,6 +4,34 @@ import Button from './Button';
 //   return ()
 // }
 
+export const WorldWise = ({ url, closeModal }) => {
+  return (
+    <>
+      <div className="text-white m-5">
+        <p>При помощи Next.js сделан пререндеринг</p>
+        <p className="mt-4">
+          Был выбран фреймворк <span className="text-yellow">vike</span>, а не
+          Next.js, потому что в нем проще и удобнее на тот момент был реализован
+          полный пререндеринг (SSG) с последующей гидрацией.
+        </p>
+        <p className="mt-4">
+          Параллельное расположение сделано не через table, а через grid и ~
+          селектор. Используется глобальный state менеджер Zustand для
+          синхронизации окна выбора перевода, хедера и выбранного текста.
+        </p>
+      </div>
+      <div className="grid grid-cols-2 gap-2 mt-4">
+        <Button type="secondary" href={url}>
+          Перейти на сайт
+        </Button>
+        <Button type="primary" onClick={closeModal}>
+          Назад
+        </Button>
+      </div>
+    </>
+  );
+};
+
 export const TextApoliteia = ({ url, closeModal }) => {
   return (
     <>
