@@ -166,7 +166,7 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                <img src="/worldwise.ico" className="h-[16px] mr-1" />
                 WorldWise.ru
               </h3>
               <div className="relative">
@@ -187,9 +187,9 @@ function FeaturedProjects() {
                 <div className="absolute right-1.5 bottom-1.5 ">
                   <div className="rounded-full">
                     <img
-                      src="/nodejs.svg"
+                      src="/next.svg"
                       alt="Next.js Icon"
-                      className="w-7 h-7"
+                      className="w-7 h-7 bg-white rounded-full"
                     />
                   </div>
                 </div>
