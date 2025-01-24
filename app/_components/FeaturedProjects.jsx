@@ -108,11 +108,11 @@ function FeaturedProjects() {
                 <Carousel>
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/worldwise1.png"
+                    src="/screenshots/worldwise2.png"
                   />
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/worldwise2.png"
+                    src="/screenshots/worldwise1.png"
                   />
                   <Screenshot
                     onModalOpen={onModalOpen}
