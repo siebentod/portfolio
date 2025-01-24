@@ -130,8 +130,9 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Сайт с текстами, сгенерированными Ноосферой. Репрезентирующий
-                поиск по текстам и теги, все эти параметры отображаются в URL.
+                Сайт с текстами, сгенерированными Ноосферой. Есть
+                репрезентирующий поиск по текстам и теги, с отображением этих
+                параметров в URL.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
