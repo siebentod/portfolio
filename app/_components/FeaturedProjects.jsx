@@ -137,7 +137,7 @@ function FeaturedProjects() {
                 <Button
                   // onClick={() => onModalOpen('worldwise')}
                   type="primary"
-                  className="mb-1.5 xs:mb-0 text-zinc-500"
+                  className="mb-1.5 xs:mb-0 text-zinc-600"
                 >
                   Технические детали
                 </Button>
