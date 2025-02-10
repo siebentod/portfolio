@@ -232,15 +232,15 @@ function FeaturedProjects() {
                 <Carousel>
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/worldwise2.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
                     src="/screenshots/worldwise1.png"
                   />
                   <Screenshot
                     onModalOpen={onModalOpen}
                     src="/screenshots/worldwise3.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/worldwise2.png"
                   />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
