@@ -39,6 +39,70 @@ function FeaturedProjects() {
           <div className="mx-auto grid max-w-5xl items-center gap-6 pt-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/hospify.ico" className="h-[16px] mr-1" />
+                Hospify
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/hosp-desktop.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/hosp-desktop5.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/hosp-desktop2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/hosp-desktop3.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/hosp-desktop4.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Приложение для медицинских работников. Реализованы запросы с кэшированием и ревалидацией.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  href=""
+                  type="primary"
+                  className="mb-1.5 xs:mb-0 text-gray-500"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://hosp.consilium-online.ru"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href=""
+                    type="secondary"
+                    className="ml-1.5 text-gray-300 hover:text-gray-300"
+                  >
+                    Github <IoLogoGithub className="ml-0.5 text-gray-300" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/nivritti.ico" className="h-[16px] mr-1" />
                 Nivritti
               </h3>
@@ -101,6 +165,66 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/arktogaia.ico" className="h-[16px] mr-1" />
+                Arktogaia.ru
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/arktogaia1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/arktogaia2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/arktogaia3.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    <img
+                      src="/next-js.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Музей Арктогеи. Реализован полнотекстовый поиск, страницы работают как модальные окна.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  href=""
+                  type="primary"
+                  className="mb-1.5 xs:mb-0 text-gray-500"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://arktogaia.ru"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href=""
+                    type="secondary"
+                    className="ml-1.5 text-gray-300 hover:text-gray-300"
+                  >
+                    Github <IoLogoGithub className="ml-0.5 text-gray-300" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/worldwise.ico" className="h-[16px] mr-1" />
                 WorldWise.ru
               </h3>
@@ -131,7 +255,7 @@ function FeaturedProjects() {
               </div>
               <p className="text-zinc-600 my-2 flex-1">
                 Сайт с текстами, сгенерированными Ноосферой. Есть
-                репрезентирующий поиск по текстам и теги, с отображением этих
+                репрезентирующий поиск по текстам и теги с отображением этих
                 параметров в URL.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
@@ -228,6 +352,63 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                Rigveda-hymns.ru
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/rigveda1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/rigveda2.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full">
+                    <img
+                      src="/nodejs.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
+                SSG без фреймворков и npm пакетов, «билдер» написан на nodejs.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('rigveda')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://rigveda-hymns.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/rigveda-purejs"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/apoliteia.ico" className="h-[16px] mr-1" />
                 Apoliteia.ru
               </h3>
@@ -286,64 +467,7 @@ function FeaturedProjects() {
                   </Button>
                 </div>
               </div>
-            </div>
-
-            <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/rigveda.ico" className="h-[16px] mr-1" />
-                Гимны Ригведы
-              </h3>
-              <div className="relative">
-                <Carousel>
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/rigveda1.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/rigveda2.png"
-                  />
-                </Carousel>
-                <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full">
-                    <img
-                      src="/nodejs.svg"
-                      alt="Next.js Icon"
-                      className="w-7 h-7"
-                    />
-                  </div>
-                </div>
-              </div>
-              <p className="text-zinc-600 my-2 flex-1">
-                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
-                SSG без фреймворков и npm пакетов, «билдер» написан на nodejs.
-              </p>
-              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
-                <Button
-                  onClick={() => onModalOpen('rigveda')}
-                  type="primary"
-                  className="mb-1.5 xs:mb-0"
-                >
-                  Технические детали
-                </Button>
-                <div className="flex">
-                  <Button
-                    href="https://rigveda-hymns.vercel.app/"
-                    type="secondary"
-                    className="xs:ml-1.5"
-                  >
-                    На сайт <IoOpenOutline className="ml-0.5" />
-                  </Button>
-                  <Button
-                    href="https://github.com/siebentod/rigveda-purejs"
-                    type="secondary"
-                    className="ml-1.5"
-                  >
-                    Github <IoLogoGithub className="ml-0.5" />
-                  </Button>
-                </div>
-              </div>
-            </div>
+            </div>            
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">

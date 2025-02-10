@@ -16,7 +16,7 @@
     "@iconify-json/tabler": "^1.2.7",
     "@vercel/speed-insights": "^1.0.12",
     "autoprefixer": "^10.4.20",
-    "next": "^14.2.12",
+    "next": "^15.1.6",
     "next-sitemap": "^4.2.3",
     "postcss": "^8.4.47",
     "react": "^18",
