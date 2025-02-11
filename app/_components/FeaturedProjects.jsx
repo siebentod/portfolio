@@ -66,13 +66,12 @@ function FeaturedProjects() {
                   />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full bg-zinc-800">
-                    
-                  </div>
+                  <div className="rounded-full bg-zinc-800"></div>
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Приложение для медицинских работников. Реализованы запросы с кэшированием и ревалидацией.
+                Приложение для медицинских работников. Реализованы запросы с
+                кэшированием и ревалидацией.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -194,7 +193,8 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Музей Арктогеи. Реализован полнотекстовый поиск, страницы работают как модальные окна.
+                Музей Арктогеи. Реализован полнотекстовый поиск, страницы
+                работают как модальные окна.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
@@ -290,24 +290,34 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/rigveda.ico" className="h-[16px] mr-1" />
-                Rigveda-hymns.ru
+                <img src="/lastfm.ico" className="h-[16px] mr-1" />
+                Last.FM Tool /
+                <img src="/birzha.ico" className="h-[16px] mr-1 ml-[7px]" />
+                Birzha
               </h3>
               <div className="relative">
                 <Carousel>
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/rigveda1.png"
+                    src="/screenshots/lastfm1.png"
                   />
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/rigveda2.png"
+                    src="/screenshots/lastfm2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/birzha1.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/birzha2.png"
                   />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full">
+                  <div className="rounded-full bg-zinc-800">
                     <img
-                      src="/nodejs.svg"
+                      src="/next-js.svg"
                       alt="Next.js Icon"
                       className="w-7 h-7"
                     />
@@ -315,12 +325,20 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
-                SSG без фреймворков и npm пакетов, «билдер» написан на nodejs.
+                Два приложения, которые получают и обрабатывают данные с API.
+                Для первого реализовано{' '}
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/last-fm-get-obscure-artists/"
+                  className="underline underline-offset-2 text-myred hover:text-[#4579cb]"
+                >
+                  дополнение для Firefox
+                </a>
+                . Оно также показывает данные во время загрузки и использует
+                Next.js для сокрытия ключа.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
-                  onClick={() => onModalOpen('rigveda')}
+                  onClick={() => onModalOpen('birzha')}
                   type="primary"
                   className="mb-1.5 xs:mb-0"
                 >
@@ -328,14 +346,14 @@ function FeaturedProjects() {
                 </Button>
                 <div className="flex">
                   <Button
-                    href="https://rigveda-hymns.vercel.app/"
+                    href="https://lastfm-obscure-artists.vercel.app"
                     type="secondary"
                     className="xs:ml-1.5"
                   >
                     На сайт <IoOpenOutline className="ml-0.5" />
                   </Button>
                   <Button
-                    href="https://github.com/siebentod/rigveda-purejs"
+                    href="https://github.com/siebentod/birzha"
                     type="secondary"
                     className="ml-1.5"
                   >
@@ -405,38 +423,28 @@ function FeaturedProjects() {
                   </Button>
                 </div>
               </div>
-            </div>            
+            </div>
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/lastfm.ico" className="h-[16px] mr-1" />
-                Last.FM Tool /
-                <img src="/birzha.ico" className="h-[16px] mr-1 ml-[7px]" />
-                Birzha
+                <img src="/rigveda.ico" className="h-[16px] mr-1" />
+                Rigveda-hymns.ru
               </h3>
               <div className="relative">
                 <Carousel>
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/lastfm1.png"
+                    src="/screenshots/rigveda1.png"
                   />
                   <Screenshot
                     onModalOpen={onModalOpen}
-                    src="/screenshots/lastfm2.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/birzha1.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/birzha2.png"
+                    src="/screenshots/rigveda2.png"
                   />
                 </Carousel>
                 <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full bg-zinc-800">
+                  <div className="rounded-full">
                     <img
-                      src="/next-js.svg"
+                      src="/nodejs.svg"
                       alt="Next.js Icon"
                       className="w-7 h-7"
                     />
@@ -444,12 +452,12 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Два приложения, которые получают и обрабатывают данные с API. Для первого реализовано также <a href="https://addons.mozilla.org/en-US/firefox/addon/last-fm-get-obscure-artists/" className='underline underline-offset-2 text-myred hover:text-[#4579cb]'>дополнение для Firefox</a>. Оно также показывает данные во время загрузки и использует Next.js
-                для сокрытия ключа.
+                Все гимны Ригведы в формате json/js с возможностью поиска. SPA +
+                SSG без фреймворков и npm пакетов, «билдер» написан на nodejs.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
-                  onClick={() => onModalOpen('birzha')}
+                  onClick={() => onModalOpen('rigveda')}
                   type="primary"
                   className="mb-1.5 xs:mb-0"
                 >
@@ -457,14 +465,14 @@ function FeaturedProjects() {
                 </Button>
                 <div className="flex">
                   <Button
-                    href="https://lastfm-obscure-artists.vercel.app"
+                    href="https://rigveda-hymns.vercel.app/"
                     type="secondary"
                     className="xs:ml-1.5"
                   >
                     На сайт <IoOpenOutline className="ml-0.5" />
                   </Button>
                   <Button
-                    href="https://github.com/siebentod/birzha"
+                    href="https://github.com/siebentod/rigveda-purejs"
                     type="secondary"
                     className="ml-1.5"
                   >
