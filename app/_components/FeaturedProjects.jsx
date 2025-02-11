@@ -506,9 +506,8 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Два приложения, которые получают данные с API, выполняют с ними
-                операции и визуализируют результат. Первое использует Next.js
-                для сокрытия ключа и показывает данные во время загрузки.
+                Два приложения, которые получают и обрабатывают данные с API. Для первого реализовано также <a href="https://addons.mozilla.org/en-US/firefox/addon/last-fm-get-obscure-artists/">дополнение для Firefox</a>. Оно также показывает данные во время загрузки и использует Next.js
+                для сокрытия ключа.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
                 <Button
