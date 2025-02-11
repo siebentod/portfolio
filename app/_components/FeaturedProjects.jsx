@@ -506,7 +506,7 @@ function FeaturedProjects() {
                 </div>
               </div>
               <p className="text-zinc-600 my-2 flex-1">
-                Два приложения, которые получают и обрабатывают данные с API. Для первого реализовано также <a href="https://addons.mozilla.org/en-US/firefox/addon/last-fm-get-obscure-artists/">дополнение для Firefox</a>. Оно также показывает данные во время загрузки и использует Next.js
+                Два приложения, которые получают и обрабатывают данные с API. Для первого реализовано также <a href="https://addons.mozilla.org/en-US/firefox/addon/last-fm-get-obscure-artists/" className='underline underline-offset-2 text-myred hover:text-[#4579cb]'>дополнение для Firefox</a>. Оно также показывает данные во время загрузки и использует Next.js
                 для сокрытия ключа.
               </p>
               <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
