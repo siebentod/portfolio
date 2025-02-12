@@ -102,6 +102,68 @@ function FeaturedProjects() {
 
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
+                <img src="/nivritti.ico" className="h-[16px] mr-1" />
+                Nivritti
+              </h3>
+              <div className="relative">
+                <Carousel>
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti-new2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti2.png"
+                  />
+                  <Screenshot
+                    onModalOpen={onModalOpen}
+                    src="/screenshots/nivritti3.png"
+                  />
+                </Carousel>
+                <div className="absolute right-1.5 bottom-1.5 ">
+                  <div className="rounded-full bg-zinc-800">
+                    <img
+                      src="/next-js.svg"
+                      alt="Next.js Icon"
+                      className="w-7 h-7"
+                    />
+                  </div>
+                </div>
+              </div>
+              <p className="text-zinc-600 my-2 flex-1">
+                Минималистичное приложение для медитации/успокоения с
+                регистрацией (email и OAuth), сохранением данных в supabase,
+                отображением статистики в виде Heatmap.
+              </p>
+              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
+                <Button
+                  onClick={() => onModalOpen('nivritti')}
+                  type="primary"
+                  className="mb-1.5 xs:mb-0"
+                >
+                  Технические детали
+                </Button>
+                <div className="flex">
+                  <Button
+                    href="https://nivritti.vercel.app/"
+                    type="secondary"
+                    className="xs:ml-1.5"
+                  >
+                    На сайт <IoOpenOutline className="ml-0.5" />
+                  </Button>
+                  <Button
+                    href="https://github.com/siebentod/nivritti"
+                    type="secondary"
+                    className="ml-1.5"
+                  >
+                    Github <IoLogoGithub className="ml-0.5" />
+                  </Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col h-full">
+              <h3 className="text-xl font-bold my-1 flex items-center">
                 <img src="/worldwise.ico" className="h-[16px] mr-1" />
                 WorldWise.ru
               </h3>
@@ -284,69 +346,7 @@ function FeaturedProjects() {
                 </div>
               </div>
             </div>
-
-            <div className="flex flex-col h-full">
-              <h3 className="text-xl font-bold my-1 flex items-center">
-                <img src="/nivritti.ico" className="h-[16px] mr-1" />
-                Nivritti
-              </h3>
-              <div className="relative">
-                <Carousel>
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/nivritti1.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/nivritti2.png"
-                  />
-                  <Screenshot
-                    onModalOpen={onModalOpen}
-                    src="/screenshots/nivritti3.png"
-                  />
-                </Carousel>
-                <div className="absolute right-1.5 bottom-1.5 ">
-                  <div className="rounded-full bg-zinc-800">
-                    <img
-                      src="/next-js.svg"
-                      alt="Next.js Icon"
-                      className="w-7 h-7"
-                    />
-                  </div>
-                </div>
-              </div>
-              <p className="text-zinc-600 my-2 flex-1">
-                Минималистичное приложение для медитации/успокоения с
-                регистрацией (email и OAuth), сохранением данных в supabase,
-                отображением статистики в виде Heatmap.
-              </p>
-              <div className="my-1 flex flex-wrap place-content-center xs:place-content-start">
-                <Button
-                  onClick={() => onModalOpen('nivritti')}
-                  type="primary"
-                  className="mb-1.5 xs:mb-0"
-                >
-                  Технические детали
-                </Button>
-                <div className="flex">
-                  <Button
-                    href="https://nivritti.vercel.app/"
-                    type="secondary"
-                    className="xs:ml-1.5"
-                  >
-                    На сайт <IoOpenOutline className="ml-0.5" />
-                  </Button>
-                  <Button
-                    href="https://github.com/siebentod/nivritti"
-                    type="secondary"
-                    className="ml-1.5"
-                  >
-                    Github <IoLogoGithub className="ml-0.5" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
+            
             <div className="flex flex-col h-full">
               <h3 className="text-xl font-bold my-1 flex items-center">
                 <img
