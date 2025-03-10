@@ -29,7 +29,7 @@ function FeaturedProjects() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="flex flex-col items-center justify-center text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Мои сайты
+              Мои проекты
             </h2>
             {/* <p className="max-w-[900px] text-zinc-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Check out some of my recent web development projects.
@@ -80,9 +80,9 @@ function FeaturedProjects() {
                   <Button
                     // href="https://hosp.consilium-online.ru"
                     type="secondary"
-                    className="xs:ml-1.5 text-gray-300"
+                    className="xs:ml-1.5 text-gray-300 hover:text-gray-300"
                   >
-                    На сайт <IoOpenOutline className="ml-0.5" />
+                    На сайт <IoOpenOutline className="ml-0.5 text-gray-300" />
                   </Button>
                   <Button
                     href=""
@@ -144,9 +144,9 @@ function FeaturedProjects() {
                   <Button
                     // href="https://hosp.consilium-online.ru"
                     type="secondary"
-                    className="xs:ml-1.5 text-gray-300"
+                    className="xs:ml-1.5 text-gray-300 hover:text-gray-300"
                   >
-                    На сайт <IoOpenOutline className="ml-0.5" />
+                    На сайт <IoOpenOutline className="ml-0.5 text-gray-300" />
                   </Button>
                   <Button
                     href=""
