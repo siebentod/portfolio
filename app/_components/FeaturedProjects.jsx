@@ -78,7 +78,7 @@ function FeaturedProjects() {
                 </Button>
                 <div className="flex">
                   <Button
-                    // href="https://hosp.consilium-online.ru"
+                    href="https://hosp.consilium-online.ru"
                     type="secondary"
                     className="xs:ml-1.5 text-gray-300 hover:text-gray-300"
                   >
